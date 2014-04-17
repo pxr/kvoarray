@@ -19,6 +19,7 @@
 		DAFC6A1D18FF75CA009F1AAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFC6A0518FF75C9009F1AAD /* UIKit.framework */; };
 		DAFC6A2518FF75CA009F1AAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAFC6A2318FF75CA009F1AAD /* InfoPlist.strings */; };
 		DAFC6A2718FF75CA009F1AAD /* kvoarrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFC6A2618FF75CA009F1AAD /* kvoarrayTests.m */; };
+		DAFC6A3218FF76B7009F1AAD /* KVOArrayHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFC6A3118FF76B7009F1AAD /* KVOArrayHolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		DAFC6A2218FF75CA009F1AAD /* kvoarrayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kvoarrayTests-Info.plist"; sourceTree = "<group>"; };
 		DAFC6A2418FF75CA009F1AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAFC6A2618FF75CA009F1AAD /* kvoarrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kvoarrayTests.m; sourceTree = "<group>"; };
+		DAFC6A3018FF76B7009F1AAD /* KVOArrayHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOArrayHolder.h; sourceTree = "<group>"; };
+		DAFC6A3118FF76B7009F1AAD /* KVOArrayHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOArrayHolder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				DAFC6A1118FF75C9009F1AAD /* PRAppDelegate.m */,
 				DAFC6A1318FF75C9009F1AAD /* Images.xcassets */,
 				DAFC6A0818FF75C9009F1AAD /* Supporting Files */,
+				DAFC6A3018FF76B7009F1AAD /* KVOArrayHolder.h */,
+				DAFC6A3118FF76B7009F1AAD /* KVOArrayHolder.m */,
 			);
 			path = kvoarray;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAFC6A1218FF75C9009F1AAD /* PRAppDelegate.m in Sources */,
+				DAFC6A3218FF76B7009F1AAD /* KVOArrayHolder.m in Sources */,
 				DAFC6A0E18FF75C9009F1AAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
