@@ -27,4 +27,11 @@
     [dataObjectArrayKVC addObject:theDataObject];
 }
 
+- (void)removeDataObjectAtIndex:(NSUInteger)index
+{
+    NSMutableArray *dataObjectArrayKVC=[self mutableArrayValueForKey:@"array"];
+    [dataObjectArrayKVC removeObjectAtIndex:index];
+}
+
+
 @end

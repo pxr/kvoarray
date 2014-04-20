@@ -29,9 +29,12 @@
 
 - (void)testKVO {
     self.holder = [[KVOArrayHolder alloc] init];
-    [self.holder addObserver:self forKeyPath:@"array" options:NSKeyValueObservingOptionInitial context:nil];
+    [self.holder addObserver:self forKeyPath:@"array" options:NSKeyValueObservingOptionInitial|NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld  context:nil];
 
-    [self.holder addDataObject:@"hello"];
+    [self.holder addDataObject:@"one"];
+    [self.holder addDataObject:@"two"];
+    [self.holder addDataObject:@"three"];
+    [self.holder removeDataObjectAtIndex:1];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

@@ -13,5 +13,6 @@
 @property NSArray *array;
 
 - (void)addDataObject:(id)theDataObject;
+- (void)removeDataObjectAtIndex:(NSUInteger)index;
 
 @end
